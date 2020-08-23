@@ -152,9 +152,20 @@ kit_che_crew = [
 
 cargo_kit_cargo_che = [
 	[["rhs_weap_m72a7",1]],
-	[["CUP_30Rnd_556x45_CZ805",20],["CUP_18Rnd_9x19_Phantom",10],["CUP_HandGrenade_M67",10],["CUP_200Rnd_TE4_Green_Tracer_556x45_M249",8],["CUP_1Rnd_HE_M203",20]],
+	[["CUP_30Rnd_556x45_CZ805",20],["CUP_18Rnd_9x19_Phantom",10],["CUP_HandGrenade_M67",10],["CUP_200Rnd_TE4_Green_Tracer_556x45_M249",8],["CUP_1Rnd_HE_M203",20],["DemoCharge_Remote_Mag",2]],
 	[],
 	[]
+];
+
+kit_che_pilot = [
+	["<EQUIPEMENT >>  ","CUP_U_B_CZ_WDL_NoKneepads","CUP_V_CZ_vest20","","CUP_H_CZ_Helmet06",""],
+	["<PRIMARY WEAPON >>  ","","",["","","",""]],
+	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
+	["<HANDGUN WEAPON >>  ","CUP_hgun_Phantom","CUP_18Rnd_9x19_Phantom",["","","",""]],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
+	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
+	["<VEST ITEMS >> ",[]],
+	["<BACKPACK ITEMS >> ",[]]
 ];
 
 kit_che_bot = [

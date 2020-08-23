@@ -26,7 +26,7 @@ tSF_module_Interactives = false;
 tSF_module_ACEActions = true;
 
 tSF_module_Authorization = true;
-tSF_module_AirborneSupport = false;
+tSF_module_AirborneSupport = true;
 tSF_module_ArtillerySupport = false;
 tSF_module_POM = false;
 

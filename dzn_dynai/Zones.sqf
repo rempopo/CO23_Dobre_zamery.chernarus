@@ -137,6 +137,14 @@
 				,["CUP_O_INS_Soldier", [], "kit_bandit_at"]
 			]
 		]
+		,[
+			1, /* Groups quantity */
+			/* Units */
+			[
+				["CUP_O_INS_Soldier", [], "kit_bandit_gr"]
+				,["CUP_O_INS_Soldier", [], "kit_bandit_rpg26"]
+			]
+		]
 	]
 	/* Behavior: Speed, Behavior, Combat mode, Formation */
 	,["LIMITED","SAFE","YELLOW","WEDGE"]
@@ -188,8 +196,7 @@
 			1, /* Groups quantity */
 			/* Units */
 			[
-				["CUP_O_INS_Soldier", [], "kit_bandit_mg"]
-				,["CUP_O_INS_Soldier", [], "kit_bandit_gr"]
+				["CUP_O_INS_Soldier", [], "kit_bandit_gr"]
 				,["CUP_O_INS_Soldier", [], "kit_bandit_at"]
 			]
 		]
