@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=348;
+		nextID=369;
 	};
 	class Camera
 	{
-		pos[]={8186.9204,499.4642,9103.9023};
-		dir[]={-0.76241088,-0.53908628,0.35809577};
-		up[]={-0.48799795,0.84220934,0.22920784};
-		aside[]={0.42515859,-1.2176606e-006,0.9051888};
+		pos[]={8163.9824,495.3786,9168.1504};
+		dir[]={-0.41756603,-0.87689459,-0.23840789};
+		up[]={-0.76151669,0.48066479,-0.43478692};
+		aside[]={-0.49586317,-1.3674726e-006,0.86848909};
 	};
 };
 binarizationWanted=0;
@@ -148,7 +148,7 @@ class AddonsMetaData
 		{
 			className="ace_cargo";
 			name="ACE3 - Cargo";
-			author="Команда ACE";
+			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
 		class Item6
@@ -273,14 +273,14 @@ class AddonsMetaData
 		{
 			className="ace_logistics_wirecutter";
 			name="ACE3 - Logistics Wire Cutter";
-			author="Команда ACE";
+			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
 		class Item27
 		{
 			className="ace_concertina_wire";
 			name="ACE3 - Concertina Wire";
-			author="Команда ACE";
+			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
 		class Item28
@@ -332,7 +332,7 @@ class AddonsMetaData
 		{
 			className="ace_csw";
 			name="ACE3 - Crew-Served Weapons";
-			author="Команда ACE";
+			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
 		class Item38
@@ -395,7 +395,7 @@ class AddonsMetaData
 		{
 			className="ace_trenches";
 			name="ACE3 - Trenches";
-			author="Команда ACE";
+			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
 		class Item49
@@ -414,7 +414,7 @@ class AddonsMetaData
 		{
 			className="ace_dragging";
 			name="ACE3 - Dragging";
-			author="Команда ACE";
+			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
 		class Item52
@@ -494,25 +494,6 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
-			property="RespawnButton";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"SCALAR"
-						};
-					};
-					value=0;
-				};
-			};
-		};
-		class Attribute1
-		{
 			property="RespawnTemplates";
 			expression="true";
 			class Value
@@ -558,6 +539,25 @@ class CustomAttributes
 							};
 						};
 					};
+				};
+			};
+		};
+		class Attribute1
+		{
+			property="RespawnButton";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=0;
 				};
 			};
 		};
@@ -1040,7 +1040,6 @@ class Mission
 					};
 					id=754;
 					type="Land_MetalBarrel_F";
-					atlOffset=-3.0517578e-005;
 				};
 				class Item6
 				{
@@ -1059,6 +1058,7 @@ class Mission
 					};
 					id=755;
 					type="Land_MetalBarrel_F";
+					atlOffset=-3.0517578e-005;
 				};
 				class Item7
 				{
@@ -1242,6 +1242,7 @@ class Mission
 					};
 					id=1529;
 					type="Land_WaterTank_F";
+					atlOffset=-0.00042724609;
 				};
 				class Item17
 				{
@@ -1491,7 +1492,7 @@ class Mission
 					};
 					id=1057;
 					type="Land_MetalBarrel_F";
-					atlOffset=-3.0517578e-005;
+					atlOffset=-0.00012207031;
 				};
 				class Item7
 				{
@@ -2023,7 +2024,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8164.2915,471.36777,9169.5938};
+						position[]={8164.3799,471.36896,9169.46};
 						angles[]={0.038649179,4.3951817,6.2378831};
 					};
 					side="Empty";
@@ -2804,8 +2805,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={8155.8101,470.57733,9155.8896};
-				angles[]={0.0093286335,0.64532733,6.2778587};
+				position[]={8154.7339,470.56689,9157.6465};
+				angles[]={0.0080009829,0.64532733,6.2778587};
 			};
 			side="Empty";
 			flags=4;
@@ -2814,7 +2815,6 @@ class Mission
 			};
 			id=1428;
 			type="ClutterCutter";
-			atlOffset=-3.0517578e-005;
 		};
 		class Item10
 		{
@@ -3592,8 +3592,8 @@ class Mission
 					dataType="Logic";
 					class PositionInfo
 					{
-						position[]={8155.4663,470.50711,9163.332};
-						angles[]={0.015998369,5.9081459,6.2698579};
+						position[]={8154.3511,470.49805,9164.8281};
+						angles[]={0.015998369,0,6.2698579};
 					};
 					name="tSF_CCP";
 					init="tSF_CCP_Composition = ""MEDEVAC HEMMT""";
@@ -3696,16 +3696,17 @@ class Mission
 				class Item2
 				{
 					dataType="Trigger";
-					position[]={8140.1104,469.96851,9133.123};
+					position[]={8163.0605,470.61758,9145.5146};
+					angle=4.3123245;
 					class Attributes
 					{
 						name="baseTrg";
-						sizeA=22.660156;
-						sizeB=15.185059;
+						sizeA=10;
+						sizeB=10;
+						isRectangle=1;
 					};
 					id=2152;
 					type="EmptyDetectorAreaR250";
-					atlOffset=-0.77703857;
 				};
 				class Item3
 				{
@@ -3722,7 +3723,7 @@ class Mission
 				};
 			};
 			id=1519;
-			atlOffset=-0.43237305;
+			atlOffset=-0.30648804;
 		};
 		class Item22
 		{
@@ -3743,11 +3744,10 @@ class Mission
 		class Item23
 		{
 			dataType="Marker";
-			position[]={8207.7324,465.40649,9174.4707};
+			position[]={8157.6968,470.5257,9160.3135};
 			name="marker_0";
 			type="Faction_CzechRepublic_EP1";
 			id=1538;
-			atlOffset=0.00012207031;
 		};
 		class Item24
 		{
@@ -4226,7 +4226,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={8159.9619,474.56094,9152.7881};
+				position[]={8162.6123,474.59866,9145.1572};
 				angles[]={0,0.75312704,0};
 			};
 			side="Empty";
@@ -4236,7 +4236,6 @@ class Mission
 			};
 			id=1610;
 			type="FlagCarrierCzechRepublic_EP1";
-			atlOffset=-3.0517578e-005;
 		};
 		class Item48
 		{
@@ -7669,14 +7668,13 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={8186.416,469.69232,9140.1836};
-				angles[]={0.042641956,5.9259477,6.2099848};
+				position[]={8184.6455,469.82968,9150.0684};
+				angles[]={0.042637762,2.639015,6.2099848};
 			};
 			areaSize[]={7.945097,0,58.697762};
 			flags=1;
 			id=1975;
 			type="ModuleHideTerrainObjects_F";
-			atlOffset=-0.35540771;
 			class CustomAttributes
 			{
 				class Attribute0
