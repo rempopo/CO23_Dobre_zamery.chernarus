@@ -15,7 +15,7 @@ GVAR(LineText2)	= "FOB 'Pohoda', Черноруссия, вблизи н.п. 'Г
 GVAR(LineStyle2) = "<t align = 'right' shadow = '1' size = '0.7' font='PuristaBold'><br />%1</t>";
 
 // 3rd line
-GVAR(LineText3) = "Операция 'Без имени'";
+GVAR(LineText3) = "Операция 'Dobré záměry'";
 GVAR(LineStyle3) = "<t align = 'right' shadow = '1' size = '0.9' font='PuristaBold'><br />%1</t>";
 
 // Other settings
